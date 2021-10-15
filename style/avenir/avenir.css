@@ -15,7 +15,8 @@
 
 @font-face {
   font-family: JetMono;
-  src: url("/style/jetBrains_Mono/JetBrainsMono-VariableFont_wght.woff") format("woff");
+  src: url(../jetBrains_Mono/JetBrainsMono-VariableFont_wght.woff);
+  src: url("./style/jetBrains_Mono/JetBrainsMono-VariableFont_wght.woff") format("woff");
 }
 
 /* Pseudo-class styling for page links. */
