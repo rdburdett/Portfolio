@@ -1,0 +1,105 @@
+/* ////////////////////////////// */
+/* ////////////////////////////// */
+/* ///  Avenir Basic Styling   ///*/
+/* ////////////////////////////// */
+/* ////////////////////////////// */
+
+
+/* Import fonts */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400&family=Roboto:wght@700&display=swap');
+
+@font-face {
+  font-family: AvenirNext;
+  src: url("font-avenir-next/AvenirNextLTPro-Regular.woff") format("woff");
+}
+
+@font-face {
+  font-family: JetMono;
+  src: url("/style/jetBrains_Mono/JetBrainsMono-VariableFont_wght.woff") format("woff");
+}
+
+/* Pseudo-class styling for page links. */
+
+a {
+  /* transition: all 0.2s ease; */
+  text-decoration: none;
+}
+
+a:link {
+  color: #555;
+  transition: 1s;
+}
+
+a:visited {
+  color: #555;
+  transition: 2s;
+}
+
+a:hover {
+  color: rgb(117, 73, 161);
+  transition: 0.2s;
+}
+
+a:active {
+  color: lightskyblue;
+}
+
+
+/* ////////////////////////////// */
+
+/* Main site styling */
+
+/* ////////////////////////////// */
+
+html {
+  font-family: AvenirNext, 'Montserrat', sans-serif;
+
+  /* Font color */
+  color: #555;
+
+  /* Background color */
+  background-color: #fafafa;
+
+}
+
+nav {
+  text-align: center;
+}
+
+main h3 {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+  /* futura-pt,Avenir,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Helvetica,Arial,sans-serif */
+  font-family: AvenirNext, Avenir, Futura, Roboto, sans-serif;
+  letter-spacing: 0.1rem;
+  text-align: center;
+  /* padding: 20px; */
+}
+
+h1 {
+  font-size: 2.5rem;
+  /* padding-top: 50px; */
+  /* padding-bottom: 50px; */
+}
+
+p {
+  padding: 20px;
+  line-height: 1.7rem;
+}
+
+ul, ol {
+  margin: 20px;
+}
+
+li {
+  /* margin: 10px; */
+  line-height: 1.7rem;
+}
+
+hr {
+  border: 1px solid lightgray;
+}

@@ -1,0 +1,247 @@
+/* //////////////////////// */
+/* ////  Import fonts  //// */
+/* //////////////////////// */
+
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400&family=Roboto:wght@700&display=swap');
+
+@font-face {
+  font-family: AvenirNext;
+  src: url("font-avenir-next/AvenirNextLTPro-Regular.woff") format("woff");
+}
+
+@font-face {
+  font-family: JetMono;
+  src: url("/style/jetBrains_Mono/JetBrainsMono-VariableFont_wght.woff") format("woff");
+}
+
+
+
+
+
+/* //////////////////////// */
+/* ///  Header Styling   ///*/
+/* //////////////////////// */
+
+
+
+header h1, header h2 {
+  padding: 0px 50px;
+  margin: 0px;
+}
+
+header h1 {
+  font-size: 3rem;
+}
+
+.monospace {
+  font-family: Jetmono, monospace;
+}
+
+header .hero {
+  background: url("../media/images/ASCII.png") black;
+  background-size: 100%;
+  background-position: center;
+  /* margin-bottom: 50px; */
+  height: 100vh;
+}
+
+.herotext {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 85vh;
+}
+
+.herobox {
+  vertical-align: middle;
+}
+
+.herocover h1 {
+  color: white;
+  padding: 10px 50px;
+  vertical-align: top;
+}
+
+header .herocover {
+  background: black;
+  background-blend-mode: luminosity;
+  opacity: 80%;
+  height: 100vh;
+  box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.2);
+}
+
+header div nav {
+  color: white;
+  padding: 30px 0px;
+  vertical-align: bottom;
+  text-align: center;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  margin: auto;
+}
+
+nav a {
+  margin-left: 10px;
+  margin-right: 10px;
+  text-decoration: none;
+}
+
+nav a:link {
+  color: #fafafa;
+  transition: 1s;
+}
+
+nav a:visited {
+  color: #fafafa;
+  transition: 2s;
+}
+
+nav a:hover {
+  color: rgb(117, 73, 161);
+  /* text-decoration: underline; */
+  transition: 0.2s;
+}
+
+nav a:active {
+  color: lightskyblue;
+}
+
+
+
+
+
+
+
+
+
+/* //////////////////////// */
+/* ///   Main Styling    ///*/
+/* //////////////////////// */
+
+
+
+html, body {
+  margin: 0;
+  padding: 0;
+  transition: 0.2s ease;
+}
+
+body {
+  width: 100%;
+}
+
+section {
+  /* background-color: lightskyblue; */
+  text-align: center;
+}
+
+section p {
+  max-width: 650px;
+  text-align: justify;
+  margin: auto;
+  padding: 30px 50px;
+  /* background-color: magenta; */
+}
+
+/* .justify {
+  text-align: justify;
+} */
+
+main {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+}
+
+/* .card-image {
+  height: 100%;
+  width: 50%;
+  background: url(/media/images/inni_ovenfra.jpeg);
+  background-size: 100%;
+  background-position: center;
+  border-radius: 10px;
+  box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.25)
+} */
+
+.center {
+  text-align: center;
+}
+
+.top-margin {
+  margin-top: 100px;
+}
+
+
+
+
+
+
+/* //////////////////////// */
+/* ///  Footer Styling   ///*/
+/* //////////////////////// */
+
+
+
+
+
+.pagefooter {
+  /* position: relative; */
+  width: 100%;
+  background-color: black;
+  color: white;
+  /* padding-top: 50px; */
+  /* padding-bottom: 50px; */
+  /* margin-top: -200px ; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.pagefooter nav {
+  padding-top: 60px;
+  padding-bottom: 30px;
+}
+
+#contact {
+  background-color: rgb(189, 230, 255);
+}
+.box {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+.favicons img{
+  height: 50px;
+  transition: 1s;
+}
+
+.absolute {
+  position: absolute;
+}
+
+.faviconsblur:hover {
+  transition: 0.2s;
+  -webkit-filter: blur(5px);
+  -moz-filter: blur(5px);
+  -o-filter: blur(5px);
+  -ms-filter: blur(5px);
+  filter: invert(33%) sepia(10%) saturate(3289%) hue-rotate(227deg) brightness(98%) contrast(92%);
+}
+
+.signature {
+  padding: 10px;
+  margin: 0px;
+  color: #555;
+  font-size: .75rem;
+  text-align: center;
+  /* position: fixed; */
+  /* bottom: -200px; */
+  /* width: 100%; */
+  margin: auto;
+  vertical-align: bottom;
+}
