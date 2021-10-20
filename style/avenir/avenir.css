@@ -74,11 +74,9 @@ main h3 {
 
 
 h1, h2, h3, h4, h5, h6 {
-  /* futura-pt,Avenir,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Helvetica,Arial,sans-serif */
   font-family: AvenirNext, Avenir, Futura, Roboto, sans-serif;
   letter-spacing: 0.1rem;
   text-align: center;
-  /* padding: 20px; */
 }
 
 h1 {
@@ -99,8 +97,4 @@ ul, ol {
 li {
   /* margin: 10px; */
   line-height: 1.7rem;
-}
-
-hr {
-  border: 1px solid lightgray;
 }

@@ -7,23 +7,80 @@
 
 @font-face {
   font-family: AvenirNext;
-  src: url("font-avenir-next/AvenirNextLTPro-Regular.woff") format("woff");
+  src: url("./font-avenir-next/AvenirNextLTPro-Regular.woff") format("woff");
 }
 
 @font-face {
   font-family: JetMono;
-  src: url("/style/jetBrains_Mono/JetBrainsMono-VariableFont_wght.woff") format("woff");
+  src: url(../jetBrains_Mono/JetBrainsMono-VariableFont_wght.woff) format("woff");
+  src: url("./style/jetBrains_Mono/JetBrainsMono-VariableFont_wght.woff") format("woff");
 }
 
 
 
-
-
 /* //////////////////////// */
-/* ///  Header Styling   ///*/
+/* ////  Link Styling   /// */
 /* //////////////////////// */
 
 
+
+a {
+  /* transition: all 0.2s ease; */
+  text-decoration: none;
+}
+
+a:link {
+  color: #555;
+  transition: 1s;
+}
+
+a:visited {
+  color: #555;
+  transition: 2s;
+}
+
+a:hover {
+  color: rgb(117, 73, 161);
+  transition: 0.2s;
+}
+
+a:active {
+  color: lightskyblue;
+}
+
+/* nav links */
+
+nav a:link {
+  color: #fafafa;
+  transition: 1s;
+}
+
+nav a:visited {
+  color: #fafafa;
+  transition: 2s;
+}
+
+nav a:hover {
+  color: rgb(117, 73, 161);
+  transition: 0.2s;
+}
+
+nav a:active {
+  color: lightskyblue;
+}
+
+
+
+/* //////////////////////// */
+/* ///  Header Styling  /// */
+/* //////////////////////// */
+
+
+html, body {
+  margin: 0;
+  padding: 0;
+  transition: 0.2s ease;
+}
 
 header h1, header h2 {
   padding: 0px 50px;
@@ -42,7 +99,6 @@ header .hero {
   background: url("../media/images/ASCII.png") black;
   background-size: 100%;
   background-position: center;
-  /* margin-bottom: 50px; */
   height: 100vh;
 }
 
@@ -89,52 +145,47 @@ nav a {
   text-decoration: none;
 }
 
-nav a:link {
-  color: #fafafa;
-  transition: 1s;
-}
-
-nav a:visited {
-  color: #fafafa;
-  transition: 2s;
-}
-
-nav a:hover {
-  color: rgb(117, 73, 161);
-  /* text-decoration: underline; */
-  transition: 0.2s;
-}
-
-nav a:active {
-  color: lightskyblue;
-}
-
-
-
-
-
-
-
 
 
 /* //////////////////////// */
-/* ///   Main Styling    ///*/
+/* ///   Main Styling   /// */
 /* //////////////////////// */
 
+html {
+  font-family: AvenirNext, 'Montserrat', sans-serif;
 
+  /* Font color */
+  color: #555;
 
-html, body {
-  margin: 0;
-  padding: 0;
-  transition: 0.2s ease;
+  /* Background color */
+  background-color: #fafafa;
+
+}
+
+nav {
+  text-align: center;
+}
+
+main h3 {
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
 
 body {
   width: 100%;
 }
 
+h1, h2, h3, h4, h5, h6 {
+  font-family: AvenirNext, Avenir, Futura, Roboto, sans-serif;
+  letter-spacing: 0.1rem;
+  text-align: center;
+}
+
+h1 {
+  font-size: 2.5rem;
+}
+
 section {
-  /* background-color: lightskyblue; */
   text-align: center;
 }
 
@@ -143,12 +194,7 @@ section p {
   text-align: justify;
   margin: auto;
   padding: 30px 50px;
-  /* background-color: magenta; */
 }
-
-/* .justify {
-  text-align: justify;
-} */
 
 main {
   display: flex;
@@ -156,15 +202,19 @@ main {
   background-color: white;
 }
 
-/* .card-image {
-  height: 100%;
-  width: 50%;
-  background: url(/media/images/inni_ovenfra.jpeg);
-  background-size: 100%;
-  background-position: center;
-  border-radius: 10px;
-  box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.25)
-} */
+p {
+  padding: 20px;
+  line-height: 1.7rem;
+}
+
+ul, ol {
+  margin: 20px;
+}
+
+li {
+  /* margin: 10px; */
+  line-height: 1.7rem;
+}
 
 .center {
   text-align: center;
@@ -176,25 +226,16 @@ main {
 
 
 
-
-
-
 /* //////////////////////// */
-/* ///  Footer Styling   ///*/
+/* ///  Footer Styling  /// */
 /* //////////////////////// */
-
-
 
 
 
 .pagefooter {
-  /* position: relative; */
   width: 100%;
   background-color: black;
   color: white;
-  /* padding-top: 50px; */
-  /* padding-bottom: 50px; */
-  /* margin-top: -200px ; */
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -239,9 +280,6 @@ main {
   color: #777;
   font-size: .75rem;
   text-align: center;
-  /* position: fixed; */
-  /* bottom: -200px; */
-  /* width: 100%; */
   margin: auto;
   vertical-align: bottom;
 }
