@@ -53,48 +53,12 @@ a:active {
 /* ////////////////////////////// */
 
 html {
-  font-family: AvenirNext, 'Montserrat', sans-serif;
+  font-family: 'AvenirNext', 'Montserrat', monospace !important;
 
   /* Font color */
-  color: #555;
+  /* color: #555; */
 
   /* Background color */
-  background-color: #fafafa;
+  /* background-color: #fafafa; */
 
-}
-
-nav {
-  text-align: center;
-}
-
-main h3 {
-  margin-top: 50px;
-  margin-bottom: 50px;
-}
-
-
-h1, h2, h3, h4, h5, h6 {
-  font-family: AvenirNext, Avenir, Futura, Roboto, sans-serif;
-  letter-spacing: 0.1rem;
-  text-align: center;
-}
-
-h1 {
-  font-size: 2.5rem;
-  /* padding-top: 50px; */
-  /* padding-bottom: 50px; */
-}
-
-p {
-  padding: 20px;
-  line-height: 1.7rem;
-}
-
-ul, ol {
-  margin: 20px;
-}
-
-li {
-  /* margin: 10px; */
-  line-height: 1.7rem;
 }
