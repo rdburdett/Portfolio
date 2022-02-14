@@ -7,7 +7,7 @@ let rob = {
 function thinkfulBootcamp(student) {
   student = {
     ...student,
-    occupation: ["Software Developer"],
+    occupation: "Software Developer",
     skills: [...student.skills, "Coding"]
   }
   return student
